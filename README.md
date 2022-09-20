@@ -1,4 +1,4 @@
-# # Trilha Ignite - RocketSeat
+# Trilha Ignite - RocketSeat
 
 Exercicio do evento NLW - eSports na Trilha Ignite realizado pela [Rocketseat](https://www.rocketseat.com.br/) onde foi feito a criação de uma plataforma para conectar pessoas para jogarem juntas, na qual é possível criar anúncios e consultar de outros jogadores querendo se conectar, com a ajuda de um Database onde as informações dos anúncios ficam registradas.
 
@@ -9,13 +9,24 @@ Exercise from event NLW - eSports on Ignite Trail held by [Rocketseat](https://w
 ![](design/Geral.png)
 ![](design/Anuncios.png)
 ![](design/CriarAnuncio.png)
+<div align=center>
 
 ![](design/Geral.gif)
 ![](design/CriarAnuncio.gif)
+</div>
+
+## How to run
+
+```cl
+  npm install
+  npm run dev
+```
+Need to run both server and web
 
 ## Tech Stack
 
-ReactJS
-Typescript
-Tailwind
-Axios
+- ReactJS
+- ContextAPI
+- Typescript
+- Tailwind
+- Axios
