@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='time'] {
+  @apply text-center h-8
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+  @apply filter invert w-3.5 -mr-2 grid
+}
+
+div#gameAdCaroussel::-webkit-scrollbar,
+div#gameBannerCaroussel::-webkit-scrollbar {
+  height: 6px;
+}
+
+div#gameAdCaroussel::-webkit-scrollbar-track,
+div#gameBannerCaroussel::-webkit-scrollbar-track {
+  background: rgb(65, 65, 65);
+  border-radius: 5px;
+}
+
+div#gameAdCaroussel::-webkit-scrollbar-thumb,
+div#gameBannerCaroussel::-webkit-scrollbar-thumb {
+ @apply bg-violet-500 rounded
+}
+
+body {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
